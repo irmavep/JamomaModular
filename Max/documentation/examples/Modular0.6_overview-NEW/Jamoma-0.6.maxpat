@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 149.0, 44.0, 1126.0, 819.0 ],
+		"rect" : [ 221.0, 44.0, 1126.0, 819.0 ],
 		"bglocked" : 1,
-		"defrect" : [ 149.0, 44.0, 1126.0, 819.0 ],
+		"defrect" : [ 221.0, 44.0, 1126.0, 819.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 60.0, 631.0, 132.0, 20.0 ],
-					"prefix" : "Mac HD:/Users/jln/@Jamoma/Jamoma/Modules/Modular/Max/documentation/examples/Modular0.6_overview/patches/",
+					"prefix" : "Mac HD:/Users/jln/@Jamoma/Jamoma/Modules/Modular/Max/documentation/examples/Modular0.6_overview-NEW/patches/",
 					"types" : "JSON"
 				}
 
@@ -1460,12 +1460,12 @@
 					"patching_rect" : [ 60.0, 739.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p stuff"
@@ -1475,14 +1475,13 @@
 , 			{
 				"box" : 				{
 					"args" : [  ],
-					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "bpatcher",
 					"name" : "buttons.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ -72.0, 1.0 ],
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1030.0, 358.0, 74.0, 103.0 ],
 					"varname" : "right"
 				}
@@ -1496,9 +1495,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "buttons.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 4.0, 1.0 ],
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 358.0, 77.0, 102.0 ],
 					"varname" : "left"
 				}
@@ -1529,7 +1528,7 @@
 					"name" : "step5.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4504.0, 0.0, 1136.0, 812.0 ],
+					"patching_rect" : [ 2252.0, 0.0, 1136.0, 812.0 ],
 					"varname" : "step5"
 				}
 
@@ -1543,7 +1542,7 @@
 					"name" : "step4.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3378.0, 0.0, 1136.0, 812.0 ],
+					"patching_rect" : [ 1126.0, 0.0, 1136.0, 812.0 ],
 					"varname" : "step4"
 				}
 
@@ -1557,7 +1556,7 @@
 					"name" : "step3.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2252.0, 0.0, 1136.0, 812.0 ],
+					"patching_rect" : [ 0.0, 0.0, 1136.0, 812.0 ],
 					"varname" : "step3"
 				}
 
@@ -1572,7 +1571,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1126.0, 0.0, 1136.0, 812.0 ],
+					"patching_rect" : [ -1126.0, 0.0, 1136.0, 812.0 ],
 					"varname" : "step2"
 				}
 
@@ -1587,7 +1586,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 0.0, 0.0, 1136.0, 812.0 ],
+					"patching_rect" : [ -2252.0, 0.0, 1136.0, 812.0 ],
 					"varname" : "step1"
 				}
 
@@ -1661,7 +1660,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 1,
 					"midpoints" : [  ],
-					"source" : [ "obj-39", 1 ]
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
