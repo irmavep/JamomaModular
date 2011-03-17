@@ -175,9 +175,9 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 184.0, 91.0, 1019.0, 710.0 ],
+						"rect" : [ 162.0, 64.0, 1019.0, 710.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 184.0, 91.0, 1019.0, 710.0 ],
+						"defrect" : [ 162.0, 64.0, 1019.0, 710.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1475,7 +1475,6 @@
 , 			{
 				"box" : 				{
 					"args" : [  ],
-					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "bpatcher",
 					"name" : "buttons.maxpat",
@@ -1491,6 +1490,7 @@
 , 			{
 				"box" : 				{
 					"args" : [  ],
+					"hidden" : 1,
 					"id" : "obj-38",
 					"maxclass" : "bpatcher",
 					"name" : "buttons.maxpat",

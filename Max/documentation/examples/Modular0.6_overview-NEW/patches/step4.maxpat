@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 102.0, 104.0, 1130.0, 610.0 ],
+		"rect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 102.0, 104.0, 1130.0, 610.0 ],
+		"defrect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -22,7 +22,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-83",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -51,8 +51,8 @@
 					"id" : "obj-82",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 928.0, 371.0, 173.0, 20.0 ],
 					"text" : "jcom.receive /player.A/play"
 				}
@@ -91,8 +91,8 @@
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 928.0, 421.0, 173.0, 20.0 ],
 					"text" : "jcom.receive /player.*/play"
 				}
@@ -102,7 +102,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-59",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -117,7 +117,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-96",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -131,7 +131,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-95",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -145,7 +145,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -159,7 +159,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-93",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -173,7 +173,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-92",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -187,7 +187,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -271,8 +271,8 @@
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 925.0, 562.0, 188.0, 20.0 ],
 					"text" : "jcom.receive /player.B:activity/out"
 				}
@@ -282,7 +282,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-74",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -315,8 +315,8 @@
 					"id" : "obj-75",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 925.0, 512.0, 181.0, 20.0 ],
 					"text" : "jcom.receive /player.B:activity/in"
 				}
@@ -326,7 +326,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -381,7 +381,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-15",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -439,7 +439,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-5",
 					"linecount" : 6,
 					"maxclass" : "comment",
@@ -454,7 +454,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-56",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -497,7 +497,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 653.0, 319.0, 97.0, 18.0 ],
-					"text" : "/fps 29.946814"
+					"text" : "/rate 1."
 				}
 
 			}
@@ -511,7 +511,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 547.0, 319.0, 97.0, 18.0 ],
-					"text" : "/fps 29.946814"
+					"text" : "/rate 1."
 				}
 
 			}
@@ -533,7 +533,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -668,7 +668,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-1",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -683,7 +683,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-73",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -697,7 +697,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -711,7 +711,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -725,7 +725,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -739,7 +739,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -753,7 +753,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -871,8 +871,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 354.0, 117.0, 123.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.return @format umenu"
 								}
@@ -887,8 +887,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 182.0, 117.0, 141.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.message @format umenu"
 								}
@@ -903,8 +903,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 117.0, 147.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.parameter @format umenu"
 								}
@@ -1042,13 +1042,13 @@
 ,
 					"patching_rect" : [ 10.0, 243.0, 46.0, 16.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p explorer"
@@ -1064,7 +1064,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-47",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/cuelist/read", ",", "/player.B/preset/store/next", ",", "/rate.1", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/player.A/model/internals", ",", "/cuelist/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/track/channel.A/preset/remove/previous", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/track/channel.B/model/class", ",", "/player.B/play", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/track/channel.A/file/path", ",", "/player.B/preset/read/again", ",", "/track/channel.A/fps", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/track/channel.B/preset/write/again", ",", "/player.B/file/load", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/track/channel.A/preset/recall/next", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/track/channel.A/out/preview", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.B/model/class", ",", "/track/model/mute", ",", "/player.A/preset/store/next", ",", "/track/channel.A/preset/remove/next", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/track/channel.A/model/internals", ",", "/track/channel.B/preset/store/previous", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.B/out/freeze", ",", "/track/channel.A", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.B/preset", ",", "/file/path", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.B/preset/store/current", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/player.A/preset/write", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1085,7 +1085,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-19",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/cuelist/read", ",", "/player.B/preset/store/next", ",", "/rate.1", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/player.A/model/internals", ",", "/cuelist/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/track/channel.A/preset/remove/previous", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/track/channel.B/model/class", ",", "/player.B/play", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/track/channel.A/file/path", ",", "/player.B/preset/read/again", ",", "/track/channel.A/fps", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/track/channel.B/preset/write/again", ",", "/player.B/file/load", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/track/channel.A/preset/recall/next", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/track/channel.A/out/preview", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.B/model/class", ",", "/track/model/mute", ",", "/player.A/preset/store/next", ",", "/track/channel.A/preset/remove/next", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/track/channel.A/model/internals", ",", "/track/channel.B/preset/store/previous", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.B/out/freeze", ",", "/track/channel.A", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.B/preset", ",", "/file/path", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.B/preset/store/current", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/player.A/preset/write", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1106,7 +1106,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-14",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/cuelist/read", ",", "/player.B/preset/store/next", ",", "/rate.1", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/player.A/model/internals", ",", "/cuelist/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/track/channel.A/preset/remove/previous", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/track/channel.B/model/class", ",", "/player.B/play", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/track/channel.A/file/path", ",", "/player.B/preset/read/again", ",", "/track/channel.A/fps", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/track/channel.B/preset/write/again", ",", "/player.B/file/load", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/track/channel.A/preset/recall/next", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/track/channel.A/out/preview", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.B/model/class", ",", "/track/model/mute", ",", "/player.A/preset/store/next", ",", "/track/channel.A/preset/remove/next", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/track/channel.A/model/internals", ",", "/track/channel.B/preset/store/previous", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.B/out/freeze", ",", "/track/channel.A", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.B/preset", ",", "/file/path", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.B/preset/store/current", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/player.A/preset/write", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1167,7 +1167,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 306.0, 225.0, 96.0, 18.0 ],
-					"text" : "/fps 29.946814"
+					"text" : "/rate 1."
 				}
 
 			}
@@ -1303,7 +1303,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.0, 535.0, 96.0, 18.0 ],
-					"text" : "/fps 29.979038"
+					"text" : "/rate 1."
 				}
 
 			}
@@ -1360,7 +1360,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1375,7 +1375,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1433,7 +1433,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-18",
 					"linecount" : 3,
 					"maxclass" : "comment",

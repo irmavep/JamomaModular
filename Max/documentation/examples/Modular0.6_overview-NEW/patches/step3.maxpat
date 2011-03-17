@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 309.0, 44.0, 923.0, 761.0 ],
+		"rect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 309.0, 44.0, 923.0, 761.0 ],
+		"defrect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -125,7 +125,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -165,7 +165,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -179,7 +179,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-27",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -291,7 +291,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-7",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -322,7 +322,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-60",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -564,13 +564,13 @@
 ,
 					"patching_rect" : [ 494.0, 498.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p fill_umenu"
@@ -656,8 +656,8 @@
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 407.0, 279.0, 107.0, 20.0 ],
 					"text" : "jcom.receive /play"
 				}
@@ -710,8 +710,8 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 570.0, 279.0, 196.0, 20.0 ],
 					"text" : "jcom.receive /play:repetitions/allow"
 				}
@@ -773,7 +773,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-22",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -793,7 +793,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-21",
-					"items" : [ "/cuelist/read", ",", "/rate.1", ",", "/cuelist/remove/previous", ",", "/play.1", ",", "/cuelist/names", ",", "/cuelist/remove/current", ",", "/fps", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/cuelist/recall/current", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/cuelist/store/next", ",", "/cuelist/store/current", ",", "/file/load", ",", "/file/path.1", ",", "/fps.1", ",", "/play", ",", "/cuelist/store", ",", "/cuelist/remove", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/file/path", ",", "/rate", ",", "/cuelist/recall/next", ",", "/cuelist/write" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -814,7 +814,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-19",
-					"items" : [ "/cuelist/read", ",", "/rate.1", ",", "/cuelist/remove/previous", ",", "/play.1", ",", "/cuelist/names", ",", "/cuelist/remove/current", ",", "/fps", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/cuelist/recall/current", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/cuelist/store/next", ",", "/cuelist/store/current", ",", "/file/load", ",", "/file/path.1", ",", "/fps.1", ",", "/play", ",", "/cuelist/store", ",", "/cuelist/remove", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/file/path", ",", "/rate", ",", "/cuelist/recall/next", ",", "/cuelist/write" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -835,8 +835,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 745.0, 74.0, 123.0, 48.0 ],
 					"text" : "jcom.namespace @lookfor jcom.return @format umenu"
 				}
@@ -851,8 +851,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 576.0, 74.0, 141.0, 48.0 ],
 					"text" : "jcom.namespace @lookfor jcom.message @format umenu"
 				}
@@ -867,7 +867,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-14",
-					"items" : [ "/cuelist/read", ",", "/rate.1", ",", "/cuelist/remove/previous", ",", "/play.1", ",", "/cuelist/names", ",", "/cuelist/remove/current", ",", "/fps", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/cuelist/recall/current", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/cuelist/store/next", ",", "/cuelist/store/current", ",", "/file/load", ",", "/file/path.1", ",", "/fps.1", ",", "/play", ",", "/cuelist/store", ",", "/cuelist/remove", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/file/path", ",", "/rate", ",", "/cuelist/recall/next", ",", "/cuelist/write" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -904,8 +904,8 @@
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 74.0, 147.0, 48.0 ],
 					"text" : "jcom.namespace @lookfor jcom.parameter @format umenu"
 				}
@@ -915,7 +915,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-9",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -930,7 +930,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -969,7 +969,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-18",
 					"linecount" : 5,
 					"maxclass" : "comment",

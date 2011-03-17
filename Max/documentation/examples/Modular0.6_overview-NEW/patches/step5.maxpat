@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 309.0, 44.0, 1116.0, 784.0 ],
+		"rect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 309.0, 44.0, 1116.0, 784.0 ],
+		"defrect" : [ 163.0, 59.0, 934.0, 689.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,8 +40,8 @@
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 921.0, 166.0, 188.0, 20.0 ],
 					"text" : "jcom.receive /player.B:activity/out"
 				}
@@ -51,7 +51,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-74",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -84,8 +84,8 @@
 					"id" : "obj-65",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 921.0, 116.0, 181.0, 20.0 ],
 					"text" : "jcom.receive /player.B:activity/in"
 				}
@@ -120,7 +120,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -139,7 +139,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-59",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/interface/ui/panel", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/player.7/preset/store/previous", ",", "/cuelist/read", ",", "/player.1/out/mute", ",", "/interface/ui/freeze", ",", "/player.B/preset/store/next", ",", "/interface/file/path", ",", "/player.15/preset/store/previous", ",", "/rate.1", ",", "/player.7/preset/remove/previous", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/interface/ui/color/toolbarBackground", ",", "/player.A/model/internals", ",", "/player.8/model/class", ",", "/player.7/preset/remove/current", ",", "/player.8", ",", "/cuelist/remove/previous", ",", "/player.1/out/preview", ",", "/player.15/preset/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/interface/rate", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/player.7/preset/store/current", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/interface/ui/color/toolbarText", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.16/model/address", ",", "/player.15/preset/store/current", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/player.16", ",", "/player.15/preset/write/again", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/player.8/model/reference", ",", "/track/channel.A/preset/remove/previous", ",", "/player.12/fps", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/player.7/preset/remove", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.15/preset/write", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.15/preset/recall", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/player.15/preset/read", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/player.11/play", ",", "/interface", ",", "/track/channel.B/model/class", ",", "/player.15/preset/names", ",", "/player.15/preset/recall/current", ",", "/player.B/play", ",", "/interface/view/mute", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/player.15/preset/store/next", ",", "/track/channel.A/file/path", ",", "/player.1/out/freeze", ",", "/player.B/preset/read/again", ",", "/player.5/file/load", ",", "/track/channel.A/fps", ",", "/interface/ui/out/preview", ",", "/interface/model/address", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/interface/ui/color/border", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/player.7/preset/recall/next", ",", "/player.6/file/path", ",", "/interface/view/reference", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/player.9/out/mute", ",", "/player.9/out/freeze", ",", "/player.7/preset", ",", "/track/channel.B/preset/write/again", ",", "/interface/file/load", ",", "/player.B/file/load", ",", "/player.7/preset/recall/previous", ",", "/interface/ui/out/mute", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/interface/ui/out/freeze", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/interface/view/help", ",", "/player.15/preset/recall/next", ",", "/player.14/file/path", ",", "/track/channel.A/preset/recall/next", ",", "/player.7/preset/write/again", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/player.16/model/reference", ",", "/track/channel.A/out/preview", ",", "/player.16/model/documentation/generate", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.15/preset/recall/previous", ",", "/player.7/preset/names", ",", "/player.13/file/load", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/player.7/preset/recall/current", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.8/model/documentation/generate", ",", "/player.B/model/class", ",", "/interface/fps", ",", "/track/model/mute", ",", "/player.8/model/help", ",", "/player.A/preset/store/next", ",", "/interface/ui/size", ",", "/track/channel.A/preset/remove/next", ",", "/player.15/preset/read/again", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/player.9/out", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/player.3/play", ",", "/track/channel.A/model/internals", ",", "/player.10/rate", ",", "/track/channel.B/preset/store/previous", ",", "/player.15/preset", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.7/preset/read/again", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.4/fps", ",", "/player.7/preset/recall", ",", "/player.B/out/freeze", ",", "/player.8/model/mute", ",", "/track/channel.A", ",", "/player.2/rate", ",", "/player.9/out/preview", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.7/preset/write", ",", "/player.B/preset", ",", "/file/path", ",", "/player.16/model/mute", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.1/out", ",", "/player.B/preset/store/current", ",", "/interface/view/class", ",", "/interface/view/internals", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/interface/view/documentation/generate", ",", "/interface/play", ",", "/player.15/preset/remove/next", ",", "/player.16/model/help", ",", "/player.A/preset/write", ",", "/player.16/model/internals", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/player.8/model/address", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/player.15/preset/remove", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/player.8/model/internals", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/player.7/preset/remove/next", ",", "/player.15/preset/store", ",", "/player.15/preset/remove/current", ",", "/player.16/model/class", ",", "/interface/ui/refresh", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/player.7/preset/read", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/interface/ui/color/contentBackground", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/player.7/preset/store/next", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help", ",", "/player.7/preset/store" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -155,7 +155,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -213,7 +213,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-25",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -240,7 +240,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -255,7 +255,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-52",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -270,7 +270,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-78",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -310,7 +310,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-13",
 					"linecount" : 11,
 					"maxclass" : "comment",
@@ -325,7 +325,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-70",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -340,7 +340,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-15",
 					"linecount" : 7,
 					"maxclass" : "comment",
@@ -407,7 +407,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-49",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -422,7 +422,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-48",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -437,7 +437,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-46",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -538,13 +538,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 143.0, 96.0, 32.0 ],
-					"text" : "/model/address /player.8"
+					"patching_rect" : [ 625.0, 143.0, 96.0, 18.0 ],
+					"text" : "/rate 1."
 				}
 
 			}
@@ -632,7 +631,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -673,7 +672,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-73",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -687,7 +686,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -701,7 +700,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -715,7 +714,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -729,7 +728,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-67",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -743,7 +742,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -845,8 +844,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 525.0, 117.0, 116.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.view @format umenu"
 								}
@@ -886,8 +885,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 354.0, 117.0, 123.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.return @format umenu"
 								}
@@ -902,8 +901,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 182.0, 117.0, 141.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.message @format umenu"
 								}
@@ -918,8 +917,8 @@
 									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 117.0, 147.0, 48.0 ],
 									"text" : "jcom.namespace @lookfor jcom.parameter @format umenu"
 								}
@@ -1084,13 +1083,13 @@
 ,
 					"patching_rect" : [ 4.0, 136.0, 46.0, 16.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p explorer"
@@ -1106,7 +1105,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-47",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/interface/ui/panel", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/player.7/preset/store/previous", ",", "/cuelist/read", ",", "/player.1/out/mute", ",", "/interface/ui/freeze", ",", "/player.B/preset/store/next", ",", "/interface/file/path", ",", "/player.15/preset/store/previous", ",", "/rate.1", ",", "/player.7/preset/remove/previous", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/interface/ui/color/toolbarBackground", ",", "/player.A/model/internals", ",", "/player.8/model/class", ",", "/player.7/preset/remove/current", ",", "/player.8", ",", "/cuelist/remove/previous", ",", "/player.1/out/preview", ",", "/player.15/preset/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/interface/rate", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/player.7/preset/store/current", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/interface/ui/color/toolbarText", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.16/model/address", ",", "/player.15/preset/store/current", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/player.16", ",", "/player.15/preset/write/again", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/player.8/model/reference", ",", "/track/channel.A/preset/remove/previous", ",", "/player.12/fps", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/player.7/preset/remove", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.15/preset/write", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.15/preset/recall", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/player.15/preset/read", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/player.11/play", ",", "/interface", ",", "/track/channel.B/model/class", ",", "/player.15/preset/names", ",", "/player.15/preset/recall/current", ",", "/player.B/play", ",", "/interface/view/mute", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/player.15/preset/store/next", ",", "/track/channel.A/file/path", ",", "/player.1/out/freeze", ",", "/player.B/preset/read/again", ",", "/player.5/file/load", ",", "/track/channel.A/fps", ",", "/interface/ui/out/preview", ",", "/interface/model/address", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/interface/ui/color/border", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/player.7/preset/recall/next", ",", "/player.6/file/path", ",", "/interface/view/reference", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/player.9/out/mute", ",", "/player.9/out/freeze", ",", "/player.7/preset", ",", "/track/channel.B/preset/write/again", ",", "/interface/file/load", ",", "/player.B/file/load", ",", "/player.7/preset/recall/previous", ",", "/interface/ui/out/mute", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/interface/ui/out/freeze", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/interface/view/help", ",", "/player.15/preset/recall/next", ",", "/player.14/file/path", ",", "/track/channel.A/preset/recall/next", ",", "/player.7/preset/write/again", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/player.16/model/reference", ",", "/track/channel.A/out/preview", ",", "/player.16/model/documentation/generate", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.15/preset/recall/previous", ",", "/player.7/preset/names", ",", "/player.13/file/load", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/player.7/preset/recall/current", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.8/model/documentation/generate", ",", "/player.B/model/class", ",", "/interface/fps", ",", "/track/model/mute", ",", "/player.8/model/help", ",", "/player.A/preset/store/next", ",", "/interface/ui/size", ",", "/track/channel.A/preset/remove/next", ",", "/player.15/preset/read/again", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/player.9/out", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/player.3/play", ",", "/track/channel.A/model/internals", ",", "/player.10/rate", ",", "/track/channel.B/preset/store/previous", ",", "/player.15/preset", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.7/preset/read/again", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.4/fps", ",", "/player.7/preset/recall", ",", "/player.B/out/freeze", ",", "/player.8/model/mute", ",", "/track/channel.A", ",", "/player.2/rate", ",", "/player.9/out/preview", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.7/preset/write", ",", "/player.B/preset", ",", "/file/path", ",", "/player.16/model/mute", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.1/out", ",", "/player.B/preset/store/current", ",", "/interface/view/class", ",", "/interface/view/internals", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/interface/view/documentation/generate", ",", "/interface/play", ",", "/player.15/preset/remove/next", ",", "/player.16/model/help", ",", "/player.A/preset/write", ",", "/player.16/model/internals", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/player.8/model/address", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/player.15/preset/remove", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/player.8/model/internals", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/player.7/preset/remove/next", ",", "/player.15/preset/store", ",", "/player.15/preset/remove/current", ",", "/player.16/model/class", ",", "/interface/ui/refresh", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/player.7/preset/read", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/interface/ui/color/contentBackground", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/player.7/preset/store/next", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help", ",", "/player.7/preset/store" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1127,7 +1126,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-19",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/interface/ui/panel", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/player.7/preset/store/previous", ",", "/cuelist/read", ",", "/player.1/out/mute", ",", "/interface/ui/freeze", ",", "/player.B/preset/store/next", ",", "/interface/file/path", ",", "/player.15/preset/store/previous", ",", "/rate.1", ",", "/player.7/preset/remove/previous", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/interface/ui/color/toolbarBackground", ",", "/player.A/model/internals", ",", "/player.8/model/class", ",", "/player.7/preset/remove/current", ",", "/player.8", ",", "/cuelist/remove/previous", ",", "/player.1/out/preview", ",", "/player.15/preset/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/interface/rate", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/player.7/preset/store/current", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/interface/ui/color/toolbarText", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.16/model/address", ",", "/player.15/preset/store/current", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/player.16", ",", "/player.15/preset/write/again", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/player.8/model/reference", ",", "/track/channel.A/preset/remove/previous", ",", "/player.12/fps", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/player.7/preset/remove", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.15/preset/write", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.15/preset/recall", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/player.15/preset/read", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/player.11/play", ",", "/interface", ",", "/track/channel.B/model/class", ",", "/player.15/preset/names", ",", "/player.15/preset/recall/current", ",", "/player.B/play", ",", "/interface/view/mute", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/player.15/preset/store/next", ",", "/track/channel.A/file/path", ",", "/player.1/out/freeze", ",", "/player.B/preset/read/again", ",", "/player.5/file/load", ",", "/track/channel.A/fps", ",", "/interface/ui/out/preview", ",", "/interface/model/address", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/interface/ui/color/border", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/player.7/preset/recall/next", ",", "/player.6/file/path", ",", "/interface/view/reference", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/player.9/out/mute", ",", "/player.9/out/freeze", ",", "/player.7/preset", ",", "/track/channel.B/preset/write/again", ",", "/interface/file/load", ",", "/player.B/file/load", ",", "/player.7/preset/recall/previous", ",", "/interface/ui/out/mute", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/interface/ui/out/freeze", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/interface/view/help", ",", "/player.15/preset/recall/next", ",", "/player.14/file/path", ",", "/track/channel.A/preset/recall/next", ",", "/player.7/preset/write/again", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/player.16/model/reference", ",", "/track/channel.A/out/preview", ",", "/player.16/model/documentation/generate", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.15/preset/recall/previous", ",", "/player.7/preset/names", ",", "/player.13/file/load", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/player.7/preset/recall/current", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.8/model/documentation/generate", ",", "/player.B/model/class", ",", "/interface/fps", ",", "/track/model/mute", ",", "/player.8/model/help", ",", "/player.A/preset/store/next", ",", "/interface/ui/size", ",", "/track/channel.A/preset/remove/next", ",", "/player.15/preset/read/again", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/player.9/out", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/player.3/play", ",", "/track/channel.A/model/internals", ",", "/player.10/rate", ",", "/track/channel.B/preset/store/previous", ",", "/player.15/preset", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.7/preset/read/again", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.4/fps", ",", "/player.7/preset/recall", ",", "/player.B/out/freeze", ",", "/player.8/model/mute", ",", "/track/channel.A", ",", "/player.2/rate", ",", "/player.9/out/preview", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.7/preset/write", ",", "/player.B/preset", ",", "/file/path", ",", "/player.16/model/mute", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.1/out", ",", "/player.B/preset/store/current", ",", "/interface/view/class", ",", "/interface/view/internals", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/interface/view/documentation/generate", ",", "/interface/play", ",", "/player.15/preset/remove/next", ",", "/player.16/model/help", ",", "/player.A/preset/write", ",", "/player.16/model/internals", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/player.8/model/address", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/player.15/preset/remove", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/player.8/model/internals", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/player.7/preset/remove/next", ",", "/player.15/preset/store", ",", "/player.15/preset/remove/current", ",", "/player.16/model/class", ",", "/interface/ui/refresh", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/player.7/preset/read", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/interface/ui/color/contentBackground", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/player.7/preset/store/next", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help", ",", "/player.7/preset/store" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1148,7 +1147,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 					"id" : "obj-14",
-					"items" : [ "/player.B/preset/remove/next", ",", "/track/channel.B/preset/recall/previous", ",", "/track/channel.A/play", ",", "/interface/ui/panel", ",", "/track/channel.A/model/help", ",", "/player.B/preset/remove/previous", ",", "/player.7/preset/store/previous", ",", "/cuelist/read", ",", "/player.1/out/mute", ",", "/interface/ui/freeze", ",", "/player.B/preset/store/next", ",", "/interface/file/path", ",", "/player.15/preset/store/previous", ",", "/rate.1", ",", "/player.7/preset/remove/previous", ",", "/track/channel.B/preset/store", ",", "/player.A/preset/recall/previous", ",", "/player.A/preset/names", ",", "/track/channel.B/out/freeze", ",", "/interface/ui/color/toolbarBackground", ",", "/player.A/model/internals", ",", "/player.8/model/class", ",", "/player.7/preset/remove/current", ",", "/player.8", ",", "/cuelist/remove/previous", ",", "/player.1/out/preview", ",", "/player.15/preset/remove/previous", ",", "/player.B/model/help", ",", "/play.1", ",", "/interface/rate", ",", "/player.A/preset/recall", ",", "/track/model/class", ",", "/player.7/preset/store/current", ",", "/track/channel.B/model/help", ",", "/track/channel.A/rate", ",", "/cuelist/names", ",", "/player.A/preset/read", ",", "/interface/ui/color/toolbarText", ",", "/track/channel.A/preset/recall/previous", ",", "/track/channel.A/preset/write", ",", "/track/channel.B/preset/read", ",", "/track/channel.A/file/load", ",", "/player.16/model/address", ",", "/player.15/preset/store/current", ",", "/player.A/out", ",", "/track/channel.A/preset/names", ",", "/player.B/rate", ",", "/player.16", ",", "/player.15/preset/write/again", ",", "/cuelist/remove/current", ",", "/track/channel.A/model/mute", ",", "/player.A/preset/store/previous", ",", "/track/channel.B", ",", "/track/channel.A/preset/store/current", ",", "/player.A/rate", ",", "/player.B/model/address", ",", "/fps", ",", "/player.8/model/reference", ",", "/track/channel.A/preset/remove/previous", ",", "/player.12/fps", ",", "/player.A/preset/remove/current", ",", "/player.B/model/mute", ",", "/player.7/preset/remove", ",", "/track/channel.A/out/mute", ",", "/track/channel.B/out/preview", ",", "/player.15/preset/write", ",", "/player.B", ",", "/player.A/preset/read/again", ",", "/player.15/preset/recall", ",", "/player.A/out/preview", ",", "/player.A/preset/store/current", ",", "/player.A/preset/write/again", ",", "/track/channel.A/preset/store/next", ",", "/player.B/out/mute", ",", "/player.15/preset/read", ",", "/track/channel.B/preset/write", ",", "/track/channel.B/preset/recall/current", ",", "/player.A/model/address", ",", "/track/channel.A/model/reference", ",", "/cuelist/recall/previous", ",", "/cuelist/store/previous", ",", "/player.11/play", ",", "/interface", ",", "/track/channel.B/model/class", ",", "/player.15/preset/names", ",", "/player.15/preset/recall/current", ",", "/player.B/play", ",", "/interface/view/mute", ",", "/track/model/help", ",", "/player.A/play", ",", "/track/channel.A/preset/read/again", ",", "/cuelist/recall/current", ",", "/player.B/preset/read", ",", "/player.15/preset/store/next", ",", "/track/channel.A/file/path", ",", "/player.1/out/freeze", ",", "/player.B/preset/read/again", ",", "/player.5/file/load", ",", "/track/channel.A/fps", ",", "/interface/ui/out/preview", ",", "/interface/model/address", ",", "/player.B/fps", ",", "/player.B/preset/remove", ",", "/interface/ui/color/border", ",", "/cuelist/remove/next", ",", "/cuelist", ",", "/player.B/file/path", ",", "/track/channel.A/preset/remove", ",", "/player.A/preset/recall/next", ",", "/track/channel.B/preset/remove/current", ",", "/player.A/preset", ",", "/track/channel.B/preset/recall", ",", "/track/channel.B/out", ",", "/track/channel.B/preset/recall/next", ",", "/player.7/preset/recall/next", ",", "/player.6/file/path", ",", "/interface/view/reference", ",", "/track/channel.B/model/documentation/generate", ",", "/cuelist/store/next", ",", "/player.B/preset/recall/next", ",", "/cuelist/store/current", ",", "/player.B/preset/recall", ",", "/player.A/preset/remove/previous", ",", "/player.9/out/mute", ",", "/player.9/out/freeze", ",", "/player.7/preset", ",", "/track/channel.B/preset/write/again", ",", "/interface/file/load", ",", "/player.B/file/load", ",", "/player.7/preset/recall/previous", ",", "/interface/ui/out/mute", ",", "/track/channel.B/file/load", ",", "/file/load", ",", "/interface/ui/out/freeze", ",", "/player.B/preset/write", ",", "/track/model/internals", ",", "/track/channel.B/model/mute", ",", "/player.B/preset/write/again", ",", "/track/channel.B/preset/names", ",", "/player.B/preset/remove/current", ",", "/interface/view/help", ",", "/player.15/preset/recall/next", ",", "/player.14/file/path", ",", "/track/channel.A/preset/recall/next", ",", "/player.7/preset/write/again", ",", "/player.B/out/preview", ",", "/player.B/model/documentation/generate", ",", "/player.B/preset/names", ",", "/track/channel.A/preset", ",", "/player.16/model/reference", ",", "/track/channel.A/out/preview", ",", "/player.16/model/documentation/generate", ",", "/track/channel.A/model/class", ",", "/track/channel.A/preset/remove/current", ",", "/player.15/preset/recall/previous", ",", "/player.7/preset/names", ",", "/player.13/file/load", ",", "/player.A/out/mute", ",", "/player.A/preset/remove", ",", "/player.7/preset/recall/current", ",", "/file/path.1", ",", "/track/channel.B/model/address", ",", "/track/channel.B/preset/store/current", ",", "/fps.1", ",", "/player.8/model/documentation/generate", ",", "/player.B/model/class", ",", "/interface/fps", ",", "/track/model/mute", ",", "/player.8/model/help", ",", "/player.A/preset/store/next", ",", "/interface/ui/size", ",", "/track/channel.A/preset/remove/next", ",", "/player.15/preset/read/again", ",", "/play", ",", "/cuelist/store", ",", "/track/channel.A/preset/store/previous", ",", "/player.9/out", ",", "/track/channel.B/fps", ",", "/track/channel.A/preset/write/again", ",", "/track/channel.A/out", ",", "/player.A/model/class", ",", "/player.B/model/reference", ",", "/player.3/play", ",", "/track/channel.A/model/internals", ",", "/player.10/rate", ",", "/track/channel.B/preset/store/previous", ",", "/player.15/preset", ",", "/player.A/model/reference", ",", "/player.A/preset/remove/next", ",", "/cuelist/remove", ",", "/player.A/preset/store", ",", "/track/channel.B/preset/remove/next", ",", "/file/load.1", ",", "/cuelist/recall", ",", "/player.7/preset/read/again", ",", "/player.A/file/path", ",", "/track/channel.B/file/path", ",", "/track/channel.B/preset/read/again", ",", "/player.4/fps", ",", "/player.7/preset/recall", ",", "/player.B/out/freeze", ",", "/player.8/model/mute", ",", "/track/channel.A", ",", "/player.2/rate", ",", "/player.9/out/preview", ",", "/track/channel.B/preset/store/next", ",", "/player.A/preset/recall/current", ",", "/player.7/preset/write", ",", "/player.B/preset", ",", "/file/path", ",", "/player.16/model/mute", ",", "/track/channel.A/preset/store", ",", "/rate", ",", "/player.1/out", ",", "/player.B/preset/store/current", ",", "/interface/view/class", ",", "/interface/view/internals", ",", "/player.A/file/load", ",", "/track/channel.A/preset/read", ",", "/interface/view/documentation/generate", ",", "/interface/play", ",", "/player.15/preset/remove/next", ",", "/player.16/model/help", ",", "/player.A/preset/write", ",", "/player.16/model/internals", ",", "/player.B/preset/recall/previous", ",", "/track/channel.A/preset/recall/current", ",", "/track/model/address", ",", "/player.B/preset/recall/current", ",", "/player.A", ",", "/player.8/model/address", ",", "/track/channel.B/preset/remove/previous", ",", "/cuelist/recall/next", ",", "/player.15/preset/remove", ",", "/track/channel.A/preset/recall", ",", "/track/channel.A/model/address", ",", "/player.8/model/internals", ",", "/track/channel.B/preset", ",", "/track/channel.B/model/reference", ",", "/track/channel.B/preset/remove", ",", "/player.A/out/freeze", ",", "/track/channel.B/play", ",", "/player.7/preset/remove/next", ",", "/player.15/preset/store", ",", "/player.15/preset/remove/current", ",", "/player.16/model/class", ",", "/interface/ui/refresh", ",", "/track/model/documentation/generate", ",", "/track/model/reference", ",", "/player.7/preset/read", ",", "/track/channel.B/model/internals", ",", "/player.B/preset/store", ",", "/player.B/model/internals", ",", "/player.A/model/documentation/generate", ",", "/cuelist/write", ",", "/interface/ui/color/contentBackground", ",", "/player.A/model/mute", ",", "/player.B/out", ",", "/track/channel.A/out/freeze", ",", "/track", ",", "/player.7/preset/store/next", ",", "/track/channel.B/out/mute", ",", "/track/channel.B/rate", ",", "/player.B/preset/store/previous", ",", "/track/channel.A/model/documentation/generate", ",", "/player.A/fps", ",", "/player.A/model/help", ",", "/player.7/preset/store" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1176,13 +1175,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-42",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 143.0, 96.0, 32.0 ],
-					"text" : "/model/address /player.16"
+					"patching_rect" : [ 340.0, 143.0, 96.0, 18.0 ],
+					"text" : "/rate 1."
 				}
 
 			}
@@ -1270,7 +1268,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1285,7 +1283,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1343,7 +1341,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-18",
 					"linecount" : 3,
 					"maxclass" : "comment",
